@@ -5,7 +5,8 @@
   padding:0;
   box-sizing: border-box;
 }
-
+Body{
+background:#959BDD;
 main{
   background:#959BDD;
   display:flex;
