@@ -47,6 +47,6 @@ function shortLink()
 /*Fix screen bug*/
 const container = document.querySelector("main");
 
-const altura = window.innerHeight;
+const altura = window.innerHeight - (window.innerHeight * 10 / 100);
 
 container.style.height = `${altura}px`;
