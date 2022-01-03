@@ -5,15 +5,17 @@
   padding:0;
   box-sizing: border-box;
 }
-Body{
-background:#959BDD;
+
+body{
+ background:#959BDD;
 }
+
 main{
   background:#959BDD;
   display:flex;
   flex-direction: column;
-  height: 100%;
   width:100vw;
+  height: 100%;
   justify-content: center;
   align-items: center;
   padding:15px;
@@ -21,9 +23,10 @@ main{
   color:#fff;
   text-shadow: 1px 1px 2px black;
   font-family: 'Open Sans Condensed', sans-serif;
+ 
 }
 main input{
-  padding:10px;
+
   width:70%;
   height:30px;
   border-radius: 5px;
@@ -47,12 +50,12 @@ main button{
 footer{
   background:#959BDD;
   border-top:1px solid black;
-  width:100vw;
+  width:100%;
   text-align: center;
-  position:absolute;
-  bottom:0;
   height:10vh;
-  line-height:10vh;
+  line-height: 10vh;
+  position: absolute;
+  bottom:0;
 }
   
   
