@@ -34,6 +34,7 @@ main input{
   margin-bottom: 15px;
   margin-top:15px;
   outline:none;
+  padding:10px;
 }
 main img{
   height:30%;
