@@ -44,11 +44,10 @@ function shortLink()
   })
 }
 
+/*Fix screen bug*/
+const container = document.querySelector("body");
 
-/**/
-const container = document.querySelector("main");
+const heightWindow = window.screen.height;
 
-const heightWindow = screen.height;
-
-container.style.minHeight = `${heightWindow}px`;
+container.style.height = `${100}vh`;
 
